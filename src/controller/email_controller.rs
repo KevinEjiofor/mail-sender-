@@ -10,7 +10,7 @@ impl EmailController {
     }
 
     pub async fn send_test_email(&self) {
-        let recipient = "recipient@example.com";
+        let recipient = "ejioforkelvin@gmail.com";
         let subject = "Test Email from Rust";
         let content = "<p>Hello! This is a test email sent using Brevo in Rust.</p>";
 
